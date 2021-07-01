@@ -3,6 +3,13 @@ package com.evgesha.petshop.animal.dog;
 public class Shpitz extends Dog {
     private int paws = 4;
 
+    public Shpitz() {
+    }
+
+    public Shpitz(String name) {
+        this.name = name;
+    }
+
     public int getPaws() {
         return paws;
     }
